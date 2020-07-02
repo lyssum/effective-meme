@@ -1,0 +1,63 @@
+/*
+  Alyssa Vo
+  4/22/20
+  Section: CSE154 AI
+
+  This is the styles.css file of my website. It builds the
+  layout for the MadLibs form and the proceeding MadLibs story.
+*/
+
+body {
+  background-image: url("paper.jpg");
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+form {
+  display: flex;
+  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  width: 10vw;
+  margin-bottom: 0.5%;
+}
+
+h1 {
+  font-size: 6em;
+  margin-bottom: 0;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section p {
+  width: 50%;
+  margin: 1% auto 2% auto;
+  font-size: 2.5em;
+}
+
+.hidden {
+  display: none;
+}
+
+.entered-words {
+  text-decoration: underline;
+}

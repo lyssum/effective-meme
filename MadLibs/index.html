@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+  Name: Alyssa Vo
+  Date: 4/22/20
+  Section: CSE154 AI
+
+  This is the index.html page for a MadLibs game in which
+  a user can enter a series of words into a form. These words
+  will then be entered in a pre-written story, thus forming
+  a MadLib.
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MADLIBS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="word-entry">
+      <h1>Madlibs</h1>
+      <hr>
+      <p>
+        Fill out each input with the corresponding word
+        and click submit to read your own custom story!
+      </p>
+      <p>Numbers and special characters are allowed!</p>
+    </header>
+    <section class="word-entry">
+      <div>
+        <form>
+            <label>
+              Name:
+              <input type="text">
+            </label>
+            <label>
+              Noun:
+              <input type="text">
+            </label>
+            <label>
+              Duration:
+              <input type="text">
+            </label>
+            <label>
+              Famous person:
+              <input type="text">
+            </label>
+            <label>
+              Verb ending with "ing":
+              <input type="text">
+            </label>
+            <label>
+              Adjective:
+              <input type="text">
+            </label>
+            <label>
+              Last name:
+              <input type="text">
+            </label>
+            <label>
+              Adjective:
+              <input type="text">
+            </label>
+            <label>
+              Verb:
+              <input type="text">
+            </label>
+            <label>
+              Plural noun:
+              <input type="text">
+            </label>
+          <button type="button">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section class="hidden story">
+      <p>
+        Feeling excited, <span class="name"></span> joined a zoom call
+        for their <span class="uniq-blank"></span> class. Oh no!
+        <span class="name"></span> forgot to change their virtual background
+        after messing with it <span class="uniq-blank"></span> ago! Their virtual
+        background was a picture of <span class="uniq-blank"></span>
+        <span class="uniq-blank"></span>! After seeing the virtual
+        backgound, the rest of the students laughed and said that the background
+        was <span class="uniq-blank"></span>. Professor <span class="uniq-blank"></span>, however,
+        said that the background was too <span class="uniq-blank"></span> and
+        asked <span class="name"></span> to replace it. <span class="name"></span>
+        felt bad and changed the background to a picture
+        of <span class="uniq-blank"></span>. The rest of class was very awkward
+        for <span class="name"></span>, however once it ended
+        <span class="name"></span> learned to always <span class="uniq-blank"></span>
+        before entering a zoom call.
+      </p>
+    </section>
+  </body>
+</html>
