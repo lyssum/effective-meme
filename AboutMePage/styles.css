@@ -1,0 +1,122 @@
+/*
+  Alyssa Vo
+  4/6/20
+  Section AI Andrew Guterman
+
+  This is the styles.css file of my website. It builds the
+  layout for both pages, adds the background images, and
+  sets the style.
+*/
+
+body {
+  background-color: rosybrown;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+body, p, ul > li {
+  margin: auto;
+}
+
+p {
+  width: 80%;
+}
+
+nav {
+  width: 15%;
+  top: 40%;
+  left: 4%;
+  position: fixed;
+  background-color: #cfafaf;
+  box-shadow: 5pt 5pt 5pt 1pt #191919;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  font-family: 'Satisfy', cursive;
+  margin-top: 1%;
+}
+
+h1 {
+  font-size: 100pt;
+  top: 25%;
+}
+
+ul, ol {
+  list-style-position: inside;
+}
+
+ol > li {
+  margin-top: 2%;
+}
+
+ul > li {
+  padding-top: 2%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  padding-bottom: 10%;
+  font-size: 150%;
+}
+
+ul > li, .blog-entry {
+  text-align: left;
+}
+
+.card {
+  box-shadow: 10pt 10pt 8pt 3pt #191919;
+  margin: 0 auto;
+  padding: 10pt;
+  background-color: #603939;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.image-caption {
+  width: 100%;
+  font-size: x-small;
+  text-align: justify;
+  margin-bottom: 1%;
+}
+
+.card, #page-title p, ul > li {
+  width: 50%;
+}
+
+#page-title div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("defaultimage.jpg");
+  height: 1000pt;
+  background-position: center;
+  background-size: cover;
+}
+
+#page-title p, h1 {
+  text-shadow: 1px 1px 4px #000000;
+  position: absolute;
+}
+
+#page-title p {
+  top: 45%;
+  font-size: 25pt;
+}
+
+div#about-background {
+  background-image: url("aboutme.jpg");
+}
+
+div#blog-background {
+  background-image: url("space-background.png");
+  height: 800pt;
+}
