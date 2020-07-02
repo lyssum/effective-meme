@@ -1,0 +1,104 @@
+/*
+  Name: Alyssa Vo
+  Date:  May 6 2020
+  Section: CSE 154 AI
+  This is the styles.css page for my lyrics retriever site.
+  It styles the page and gives it its two-sided layout.
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body, form, section, div {
+  display: flex;
+  font-family: 'Oxygen', sans-serif;
+}
+
+form, section, #lyrics {
+  width: 50vw;
+}
+
+form, section {
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  justify-content: space-evenly;
+  font-size: 2em;
+}
+
+h1, section p {
+  color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  width: 85%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 10.5em;
+  margin-bottom: 1%;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+label {
+  margin-top: 10%;
+}
+
+section {
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  background-color: #f5cac3;
+}
+
+section p {
+  font-size: 2em;
+  width: 60%;
+}
+
+section img {
+  width: 40%;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 1%;
+}
+
+#lyrics {
+  margin-left: auto;
+  font-size: small;
+  white-space: pre-wrap;
+  height: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#lyrics p {
+  margin-top: 10%;
+  color: black;
+}
+
+#song-info {
+  position: fixed;
+}
+
+#tags {
+  color: black;
+  font-size: 1.25em;
+}
+
+#lyric-view {
+  width: 100vw;
+}
+
+.hidden {
+  display: none;
+}
